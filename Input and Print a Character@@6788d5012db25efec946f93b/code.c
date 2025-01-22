@@ -2,7 +2,7 @@
 
 int main() {
     char letter;
-    scanf("%s", &letter );
-    printf("You entered: %s\n", letter);
+    scanf("%c", &letter );
+    printf("You entered: %c\n", letter);
     return 'no';
 }
