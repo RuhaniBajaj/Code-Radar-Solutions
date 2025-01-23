@@ -5,7 +5,7 @@ char* welcome() {
 }
 
 int main() {
-    char sentence1,sentence2[100,100];
+    char sentence1[100],sentence2[100];
     scanf("%s %s", &sentence1, &sentence2);
     printf("You entered: %s\n", sentence1, "and %s\n", sentence2);
     return 0;
