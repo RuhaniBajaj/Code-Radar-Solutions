@@ -7,12 +7,12 @@ char* welcome() {
 int main() {
     char n;
     if(n==char){
-    if(n=='a','e','i','o','u'){
-        printf("Vowel");
-    }
-    else if (n!=='a','e','i','o','u'){
-        printf("Consonant");
-    }}
+      if(n=='a','e','i','o','u'){
+         printf("Vowel");
+      }
+       else{
+         printf("Consonant");
+        }}
     else if(n!= char){
         printf("Digit");
     }
