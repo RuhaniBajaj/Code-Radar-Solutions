@@ -18,5 +18,8 @@ int main() {
             printf("%d", c);
         }
     }
+    else{
+        printf("error")
+    }
     return 0;
 }
