@@ -19,7 +19,11 @@ int main() {
         }
     }
     else{
-        printf("error");
+        if(b>c){
+        printf("%d",c);}
+        else{
+            printf("%d",b);
+        }
     }
     return 0;
 }
