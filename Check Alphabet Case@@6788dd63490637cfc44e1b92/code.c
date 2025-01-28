@@ -10,8 +10,11 @@ int main() {
     if (n >='a' && n<='z'){
         printf("Lowercase");
     }
-    else{
+    else if(n>='A' && n<='Z') {
         printf("Uppercase");
+    }
+    else{
+        printf("Not an alphabet");
     }
     return 0;
 }
