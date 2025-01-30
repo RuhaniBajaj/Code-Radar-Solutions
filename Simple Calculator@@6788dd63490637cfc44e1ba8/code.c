@@ -12,17 +12,17 @@ int main() {
     switch(n)
     {
         case '+':
-        printf("%d", a+b);
+        printf("%f", a+b);
         break;
         case '-':
-        printf("%d", a-b);
+        printf("%f", a-b);
         break;
         case '*':
-        printf("%d", a*b);
+        printf("%f", a*b);
         break;
         case '/':
         if(b!=0){
-           printf("%d", a/b);
+           printf("%f", a/b);
         }
         else{
            printf("error\n");
