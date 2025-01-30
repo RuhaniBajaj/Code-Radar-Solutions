@@ -29,7 +29,7 @@ int main() {
         }
         break;
         default:
-        printf("Invalid operation\n");
+        printf("error\n");
         break;
     }
     return 0;
