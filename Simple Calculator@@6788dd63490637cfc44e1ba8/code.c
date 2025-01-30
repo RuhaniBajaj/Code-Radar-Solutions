@@ -8,8 +8,9 @@ int main() {
     int a,b;
     scanf("%d %d", &a,&b);
     char n;
-    scanf("%c",&n);
-    switch(n){
+    scanf("%c", &n);
+    switch(n)
+    {
         case '+':
         printf("%d", a+b);
         break;
@@ -17,18 +18,18 @@ int main() {
         printf("%d", a-b);
         break;
         case '*':
-        printf("%d",a*b);
+        printf("%d", a*b);
         break;
         case '/':
         if(b!=0){
-           printf("%d",a/b);
+           printf("%d", a/b);
         }
         else{
-            printf("error\n");
+           printf("error\n");
         }
         break;
         default:
-        printf("error\n");
+        printf("Invalid operation\n");
         break;
     }
     return 0;
