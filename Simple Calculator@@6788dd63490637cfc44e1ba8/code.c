@@ -20,8 +20,13 @@ int main() {
         printf("%d",a*b);
         break;
         case '/':
-        printf("%d",a/b);
-        break;
+        if(b!=0){
+           printf("%d",a/b);
+        }
+        else{
+            printf("error\n");
+        }
+        
         default:
         printf("error\n");
         break;
