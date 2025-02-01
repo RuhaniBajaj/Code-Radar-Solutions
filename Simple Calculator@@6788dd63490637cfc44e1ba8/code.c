@@ -5,8 +5,8 @@ char* welcome() {
 }
 
 int main() {
-    float a,b;
-    scanf("%f %f", &a,&b);
+    int a,b;
+    scanf("%d %d", &a,&b);
     char n;
     scanf("%c", &n);
     switch(n)
