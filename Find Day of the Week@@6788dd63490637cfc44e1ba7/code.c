@@ -31,7 +31,7 @@ int main() {
         printf("Sunday");
         break;
         default:
-        printf("error");
+        printf("Invalid");
         break;
     }
     return 0;
