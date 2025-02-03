@@ -6,7 +6,7 @@ char* welcome() {
 
 int main() {
     int a,b;
-    if(a&&b<=0 || a&&b>=0){
+    if(a&&b<0 || a&&b>0){
         printf("Same Sign");
     }
     else{
