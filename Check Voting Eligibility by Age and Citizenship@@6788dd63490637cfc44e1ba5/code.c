@@ -16,7 +16,7 @@ int main() {
         }
     }
     else{
-        printf("Not ELigible");
+        printf("Not Eligible");
     }
     return 0;
 }
