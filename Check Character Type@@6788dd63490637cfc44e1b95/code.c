@@ -8,12 +8,12 @@ int main() {
     char n;
     scanf("%c",&n);
     
-      if(n=='a'||'e'||'i'||'o'||'u'){
-         printf("Vowel");
-      }
+    if(n=='a'||n=='e'|| n=='i'|| n=='o'|| n=='u' || n=='A' || n='E' || n=='I' || n=='O' || n=='U'){
+        printf("Vowel");
+    }
        else if ((n>='a' && n<='z')|| (a>='A' && a<='Z')){
          printf("Consonant");
-        }}
+        }
     else if(n>='0' && n<='9'){
         printf("Digit");
     }
@@ -21,3 +21,4 @@ int main() {
         printf("Special Character");
     }
     return 0;
+}
