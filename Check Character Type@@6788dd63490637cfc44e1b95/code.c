@@ -7,18 +7,17 @@ char* welcome() {
 int main() {
     char n;
     scanf("%c",&n);
-    if(n==char){
-      if(n=='a','e','i','o','u'){
+    
+      if(n=='a'||'e'||'i'||'o'||'u'){
          printf("Vowel");
       }
-       else{
+       else if ((n>='a' && n<='z')|| (a>='A' && a<='Z')){
          printf("Consonant");
         }}
-    else if(n!= char){
+    else if(n>='0' && n<='9'){
         printf("Digit");
     }
     else{
         printf("Special Character");
     }
     return 0;
-}
