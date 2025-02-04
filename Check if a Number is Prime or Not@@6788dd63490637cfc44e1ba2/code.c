@@ -7,7 +7,7 @@ char* welcome() {
 int main() {
     int n,i;
     int prime=1;
-    scanf("%d",n);
+    scanf("%d",&n);
     if(n==0 || n==1){
        prime=0;
     }
