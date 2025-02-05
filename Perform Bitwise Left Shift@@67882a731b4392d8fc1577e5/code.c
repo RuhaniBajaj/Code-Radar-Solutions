@@ -7,7 +7,8 @@ char* welcome() {
 int main() {
     int n,i;
     scanf("%d %d",&n,&i);
-    mask=1<<(i-1);
-    printf("%d", n&mask);
+    mask=1<<(i);
+    
+    printf("%d",mask );
     return 0;
 }
